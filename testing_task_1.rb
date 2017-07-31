@@ -5,7 +5,7 @@
 
  
 # def func1 val  missing brackets around argument. 
-  if val = 1
+  # if val = 1   missing = sign for equivalency.
   return true
   else
   return false
@@ -34,7 +34,7 @@ if looper == 10
 else
   puts "looper failed"
   failures = failures + 1
- #                            missing 'end' for end of loop and 'end' for end of function.
+ #                            missing 'end' for end of loop.
   
 if func1(3) == false
   puts "func1(3) passed"
