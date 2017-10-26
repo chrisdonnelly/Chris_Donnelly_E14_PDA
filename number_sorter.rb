@@ -23,6 +23,8 @@ class Number_sorter
 end
 
 number_sorter = Number_sorter.new
-numbers_array = [ 1, 77, 6, 23, 5, 67, 123, 54, 2, 13 ]
+numbers_array = [ 1, 77, 6, 23, 5, 67, 123, 54, 2, 13, 454, 1023, 32, 9, 77 ]
+
+p numbers_array
 
 p number_sorter.sort_numbers(numbers_array)
