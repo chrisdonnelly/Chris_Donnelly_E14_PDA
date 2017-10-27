@@ -101,7 +101,9 @@ describe('calculator functionality', function() {
     element(by.css('#number0')).click();
     element(by.css('#operator_equals')).click();
     expect(running_total.getAttribute('value')).to.eventually.equal('Infinity')
-  })
+  }
+
+  // divide by zero exception handler
 
   // it('should display a more meaningful message when dividing by zero', function(){
   //   running_total = element(by.css('#running_total'))
